@@ -1,0 +1,22 @@
+gg	: top of file
+shift g	: bottom of file
+:73	: to go line number 73 (73gg)
+:50	: to go line number 50 (50gg)
+:set nu	: to print number of line inside file (:set number)
+yy	: to copy a single line
+p	: to paste sigle line
+5yy	: to copy 5 lines
+5p	: to paste 5 times
+dd	: to delete single line
+10dd	: tp delete 10 lines
+u	: to undo
+ctrl r	: to redo
+/word	: to search a word
+
+cat -n file1	: to print number of lines outside of file
+head file1	: to print top 10 lines
+head -20 file1	: to print top 20 lines
+head -30 file1	: to print top 30 lines
+tail file1	: to print bottom 10 lines
+tail -20 file1	: to print bottom 20 lines
+tail -30 file1	: to print bottom 30 lines
